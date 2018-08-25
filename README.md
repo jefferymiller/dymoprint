@@ -10,6 +10,21 @@ Changes:
 
 - *some..*
 
+### For Fedora based distributions:
+
+The packaged ``usb_modeswitch`` has the appropriate rules for the
+dymo device.
+
+```bash
+dnf install usb_modeswitch
+```
+
+Udev rules open up the mode on the printer device.
+```
+make install
+```
+
+Tested on Fedora 28.
 
 ### For ubuntu based distributions:
 (should also work for debian, but not tested yet)

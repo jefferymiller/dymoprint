@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!venv/bin/python
 
 # === LICENSE STATEMENT ===
 # Copyright (c) 2011 Sebastian J. Bronner <waschtl@sbronner.com>
@@ -26,12 +26,12 @@ DEV_PRODUCT     = 0x1002
 #DEV_PRODUCT     = 0x1001
 DEV_NODE        = None
 DEV_NAME        = 'Dymo LabelManager PnP'
-#FONT_FILENAME  = '/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf'
-FONT_CONFIG = {'regular':'/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-R.ttf',     # regular font
+FONT_CONFIG = {'regular':'/usr/share/fonts/google-fonts/DroidSansMono.ttf',     # regular font
                'bold':'/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-B.ttf',        # bold font
                'italic':'/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-RI.ttf',       # italic font
-               'narrow':'/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-C.ttf'    # narrow/condensed
+               'narrow':'/usr/share/fonts/dejavu/DejaVuSansCondensed.ttf'    # narrow/condensed
                }
+FONT_FILENAME = FONT_CONFIG['regular']
 FONT_SIZERATIO  = 7./8
 #CONFIG_FILE     = '.dymoprint'
 CONFIG_FILE     = 'dymoprint.ini'
